@@ -1,5 +1,5 @@
 {
-	"name": "bg.remover",
+	"name": "NictonLabsBg.remover",
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
@@ -36,8 +36,11 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
+		"@imgly/background-removal": "^1.5.7",
 		"@tailwindcss/container-queries": "^0.1.1",
 		"@tailwindcss/forms": "^0.5.9",
-		"@tailwindcss/typography": "^0.5.15"
+		"@tailwindcss/typography": "^0.5.15",
+		"axios": "^1.7.9",
+		"onnxruntime-web": "^1.20.1"
 	}
 }
